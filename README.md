@@ -73,13 +73,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 #  Assignment 11: Dockerize React App
 
 ## Description
-This project is about setting up a React app inside a Docker container. Te app is super simple and shows a big "Codin 1" on the page.
+This project is about setting up a React app inside a Docker container. The app is super simple and shows a big "Codin 1" on the page.
 
 ## Prerequisites
 - Docker (installed and running)
 - Node.js (in case you want to run the app without Docker)
 
 ## How to Run It
+### Run with Docker
 1. Build the Docker image
   ```bash
-  docker building -t ordonez_cassandra_coding_assignment11 .
+  docker build -t ordonez_cassandra_coding_assignment11 .
